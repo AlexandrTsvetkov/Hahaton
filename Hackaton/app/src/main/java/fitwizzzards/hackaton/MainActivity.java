@@ -3,8 +3,6 @@ package fitwizzzards.hackaton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import fitwizzzards.hackaton.Helpers.AppHelper;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
