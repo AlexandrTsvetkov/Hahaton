@@ -1,4 +1,4 @@
-package fitwizzzards.hackaton.Helpers;
+package fitwizzzards.hackaton.helpers;
 
 /**
  * Created by aleks on 06.12.2016.
