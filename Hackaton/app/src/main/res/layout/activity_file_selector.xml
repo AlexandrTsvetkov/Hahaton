@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    >
+
+    <ru.katso.livebutton.LiveButton
+        xmlns:livebutton="http://schemas.android.com/apk/res-auto"
+        android:layout_height="43dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="@string/finish"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        livebutton:corners="4dp"
+        livebutton:normalHeight="6dp"
+        livebutton:pressedHeight="2dp"
+        livebutton:backgroundColor="#F57F76"
+        livebutton:shadowColor="#b16262"/>
+
+    <TextView
+
+        android:id="@+id/path"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        />
+
+    <ListView
+
+        android:id="@android:id/list"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        />
+
+    <TextView
+
+        android:id="@android:id/empty"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="No Data"
+
+        />
+
+</LinearLayout>
